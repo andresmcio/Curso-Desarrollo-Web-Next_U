@@ -81,17 +81,11 @@
                     <h3>Cebollas Caramelizadas</h3>
                     <h5 class="subheader">20/Mar/2017</h5>
                     <img src="resources/cebolla_caramelizada.png" alt="cebolla"/>
-                    <ul class="tabs" data-tabs id="post_1">
-                        <li class="tabs-title is-active float-left"><a data-tabs-target="#descripcion" href="#/tabs/descripcion" aria-selected="true">Descripción</a></li>
-                        <li class="tabs-title float-left"><a data-tabs-target="#ingredientes" href="#/tabs/ingredientes">Ingredientes</a></li>
-                        <li class="tabs-title float-left"><a data-tabs-target="#preparacion" href="#/tabs/preparacion">Preparación</a></li>
-                        <li class="tabs-title float-left"><a data-tabs-target="#nutricional" href="#/tabs/nutricional">Inf. nutricional</a></li>
-                    </ul>
-                    <div class="tabs-content" data-tabs-content="post_1">
-                        <div class="tabs-panel is-active" id="descripcion">
+                    <div class="content">
+                        <div class="panel">
                             <p>Prueba estas deliciosas cebollas caramelizadas para acompañar todos tu platillos desde un pannini gourmet hasta una carne.</p>
                         </div>
-                        <div class="tabs-panel" id="ingredientes">
+                        <div class="panel">
                             <h4>Ingredientes</h4>
                             <ul class="no-bullet">
                                 <li>
@@ -138,7 +132,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="tabs-panel" id="preparacion">
+                        <div class="panel">
                             <h4>Preparación</h4>
                             <div>
                                 <input type="checkbox"/>
@@ -157,72 +151,74 @@
                                 <span id="14">Agrega el vinagre balsámico y deja que regrese a la consistencia de como un tipo de miel. Prueba y agrega sal, pimienta si crees necesario. Sube un poco el fuego y remueve constantemente hasta que las cebollas se vuelvan brillosas y tengas una consistencia suave.</span>
                             </div>
                         </div>
-                        <div class="tabs-panel" id="nutricional">
+                        <div class="panel">
                             <h4>Información nutricional</h4>
                             <p>*Porcentaje de valores diarios basado en una dieta de 2,000 calorías.</p>
-                            <div class="row">
-                                <div class="nut small-2 small-offset-1 columns">Calorías</div>
-                                <div class="nut-dato small-1 columns">557</div>
-                                <div class="nut-medida small-1 small-offset-1 columns">kcal</div>
-                                <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-meter" style="width: 28%;"></div>
+                            <div class="wrapper">
+                                <div class="row">
+                                    <div class="nut small-2 small-offset-1 columns">Calorías</div>
+                                    <div class="nut-dato small-1 columns">557</div>
+                                    <div class="nut-medida small-1 small-offset-1 columns">kcal</div>
+                                    <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-meter" style="width: 28%;"></div>
+                                    </div>
+                                    <div class="nut-dato small-1 columns">28%</div>
                                 </div>
-                                <div class="nut-dato small-1 columns">28%</div>
-                            </div>
-                            <div class="row">
-                                <div class="nut small-2 small-offset-1 columns">Carbohidratos</div>
-                                <div class="nut-dato small-1 columns">131</div>
-                                <div class="nut-medida small-1 small-offset-1 columns">g</div>
-                                <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="44" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-meter" style="width: 44%;"></div>
+                                <div class="row">
+                                    <div class="nut small-2 small-offset-1 columns">Carbohidratos</div>
+                                    <div class="nut-dato small-1 columns">131</div>
+                                    <div class="nut-medida small-1 small-offset-1 columns">g</div>
+                                    <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="44" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-meter" style="width: 44%;"></div>
+                                    </div>
+                                    <div class="nut-dato small-1 columns">44%</div>
                                 </div>
-                                <div class="nut-dato small-1 columns">44%</div>
-                            </div>
-                            <div class="row">
-                                <div class="nut small-2 small-offset-1 columns">Proteínas</div>
-                                <div class="nut-dato small-1 columns">3.3</div>
-                                <div class="nut-medida small-1 small-offset-1 columns">g</div>
-                                <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="6.6" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-meter" style="width: 6.6%;"></div>
+                                <div class="row">
+                                    <div class="nut small-2 small-offset-1 columns">Proteínas</div>
+                                    <div class="nut-dato small-1 columns">3.3</div>
+                                    <div class="nut-medida small-1 small-offset-1 columns">g</div>
+                                    <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="6.6" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-meter" style="width: 6.6%;"></div>
+                                    </div>
+                                    <div class="nut-dato small-1 columns">6.6%</div>
                                 </div>
-                                <div class="nut-dato small-1 columns">6.6%</div>
-                            </div>
-                            <div class="row">
-                                <div class="nut small-2 small-offset-1 columns">Lípidos</div>
-                                <div class="nut-dato small-1 columns">0.4</div>
-                                <div class="nut-medida small-1 small-offset-1 columns">g</div>
-                                <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="0.4" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-meter" style="width: 0.4%;"></div>
+                                <div class="row">
+                                    <div class="nut small-2 small-offset-1 columns">Lípidos</div>
+                                    <div class="nut-dato small-1 columns">0.4</div>
+                                    <div class="nut-medida small-1 small-offset-1 columns">g</div>
+                                    <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="0.4" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-meter" style="width: 0.4%;"></div>
+                                    </div>
+                                    <div class="nut-dato small-1 columns">0.4%</div>
                                 </div>
-                                <div class="nut-dato small-1 columns">0.4%</div>
-                            </div>
-                            <div class="row">
-                                <div class="nut small-2 small-offset-1 columns">Fibra dietética</div>
-                                <div class="nut-dato small-1 columns">5.1</div>
-                                <div class="nut-medida small-1 small-offset-1 columns">g</div>
-                                <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-meter" style="width: 10%;"></div>
+                                <div class="row">
+                                    <div class="nut small-2 small-offset-1 columns">Fibra dietética</div>
+                                    <div class="nut-dato small-1 columns">5.1</div>
+                                    <div class="nut-medida small-1 small-offset-1 columns">g</div>
+                                    <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-meter" style="width: 10%;"></div>
+                                    </div>
+                                    <div class="nut-dato small-1 columns">10%</div>
                                 </div>
-                                <div class="nut-dato small-1 columns">10%</div>
-                            </div>
-                            <div class="row">
-                                <div class="nut small-2 small-offset-1 columns">Azúcares</div>
-                                <div class="nut-dato small-1 columns">109</div>
-                                <div class="nut-medida small-1 small-offset-1 columns">g</div>
-                                <div class="alert progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-meter" style="width: 100%;"></div>
+                                <div class="row">
+                                    <div class="nut small-2 small-offset-1 columns">Azúcares</div>
+                                    <div class="nut-dato small-1 columns">109</div>
+                                    <div class="nut-medida small-1 small-offset-1 columns">g</div>
+                                    <div class="alert progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-meter" style="width: 100%;"></div>
+                                    </div>
+                                    <div class="nut-dato small-1 columns">122%</div>
                                 </div>
-                                <div class="nut-dato small-1 columns">122%</div>
-                            </div>
-                            <div class="row">
-                                <div class="nut small-2 small-offset-1 columns">Colesterol</div>
-                                <div class="nut-dato small-1 columns">0.0</div>
-                                <div class="nut-medida small-1 small-offset-1 columns">mg</div>
-                                <div class="progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-meter" style="width: 0%;"></div>
+                                <div class="row">
+                                    <div class="nut small-2 small-offset-1 columns">Colesterol</div>
+                                    <div class="nut-dato small-1 columns">0.0</div>
+                                    <div class="nut-medida small-1 small-offset-1 columns">mg</div>
+                                    <div class="progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-meter" style="width: 0%;"></div>
+                                    </div>
+                                    <div class="nut-dato small-1 columns">0.0%</div>
                                 </div>
-                                <div class="nut-dato small-1 columns">0.0%</div>
-                            </div>
+                            </div>                            
                         </div>
                     </div>
                     <div class="row align-center">
@@ -271,17 +267,11 @@
                     <h3>Camarones al café</h3>
                     <h5 class="subheader">1/Aug/2017</h5>
                     <img src="resources/camaron.jpg" alt="camaron" />
-                    <ul class="tabs" data-tabs id="post_2">
-                        <li class="tabs-title is-active float-left"><a data-tabs-target="#descripcion2" href="#/tabs/descripcion2" aria-selected="true">Descripción</a></li>
-                        <li class="tabs-title float-left"><a data-tabs-target="#ingredientes2" href="#/tabs/ingredientes2">Ingredientes</a></li>
-                        <li class="tabs-title float-left"><a data-tabs-target="#preparacion2" href="#/tabs/preparacion2">Preparación</a></li>
-                        <li class="tabs-title float-left"><a data-tabs-target="#nutricional2" href="#/tabs/nutricional2">Inf. nutricional</a></li>
-                    </ul>
-                    <div class="tabs-content" data-tabs-content="post_2">
-                        <div class="tabs-panel is-active" id="descripcion2">
+                    <div class="content">
+                        <div class="panel">
                             <p>Esta receta de camarones al café es una idea diferente de preparar camarones y que mejor que usando café. Nunca te hubieras imaginado que el café y los camarones juntos pudieran tener tan buen sabor.</p>
                         </div>
-                        <div class="tabs-panel" id="ingredientes2">
+                        <div class="panel">
                             <h4>Ingredientes</h4>
                             <ul>
                                 <li>
@@ -328,7 +318,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="tabs-panel" id="preparacion2">
+                        <div class="panel">
                             <h4>Preparación</h4>
                             <div>
                                 <input type="checkbox"/>
@@ -347,72 +337,74 @@
                                 <span id="24">Vaciar todo el contenido de la licuadora esperar otros 10 minutos a que se adhiere el liíquido del café a los camarones.</span>
                             </div>
                         </div>
-                        <div class="tabs-panel" id="nutricional2">
+                        <div class="panel">
                             <h4>Información nutricional</h4>
                             <p>*Porcentaje de valores diarios basado en una dieta de 2,000 calorías.</p>
-                            <div class="row">
-                                <div class="nut small-2 small-offset-1 columns">Calorías</div>
-                                <div class="nut-dato small-1 columns">424</div>
-                                <div class="nut-medida small-1 small-offset-1 columns">kcal</div>
-                                <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-meter" style="width: 21%;"></div>
+                            <div class="wrapper">
+                                <div class="row">
+                                    <div class="nut small-2 small-offset-1 columns">Calorías</div>
+                                    <div class="nut-dato small-1 columns">424</div>
+                                    <div class="nut-medida small-1 small-offset-1 columns">kcal</div>
+                                    <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-meter" style="width: 21%;"></div>
+                                    </div>
+                                    <div class="nut-dato small-1 columns">21%</div>
                                 </div>
-                                <div class="nut-dato small-1 columns">21%</div>
-                            </div>
-                            <div class="row">
-                                <div class="nut small-2 small-offset-1 columns">Carbohidratos</div>
-                                <div class="nut-dato small-1 columns">26.0</div>
-                                <div class="nut-medida small-1 small-offset-1 columns">g</div>
-                                <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="8.7" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-meter" style="width: 8.7%;"></div>
+                                <div class="row">
+                                    <div class="nut small-2 small-offset-1 columns">Carbohidratos</div>
+                                    <div class="nut-dato small-1 columns">26.0</div>
+                                    <div class="nut-medida small-1 small-offset-1 columns">g</div>
+                                    <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="8.7" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-meter" style="width: 8.7%;"></div>
+                                    </div>
+                                    <div class="nut-dato small-1 columns">8.7%</div>
                                 </div>
-                                <div class="nut-dato small-1 columns">8.7%</div>
-                            </div>
-                            <div class="row">
-                                <div class="nut small-2 small-offset-1 columns">Proteínas</div>
-                                <div class="nut-dato small-1 columns">56.5</div>
-                                <div class="nut-medida small-1 small-offset-1 columns">g</div>
-                                <div class="warning progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-meter" style="width: 100%;"></div>
+                                <div class="row">
+                                    <div class="nut small-2 small-offset-1 columns">Proteínas</div>
+                                    <div class="nut-dato small-1 columns">56.5</div>
+                                    <div class="nut-medida small-1 small-offset-1 columns">g</div>
+                                    <div class="warning progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-meter" style="width: 100%;"></div>
+                                    </div>
+                                    <div class="nut-dato small-1 columns">113%</div>
                                 </div>
-                                <div class="nut-dato small-1 columns">113%</div>
-                            </div>
-                            <div class="row">
-                                <div class="nut small-2 small-offset-1 columns">Lípidos</div>
-                                <div class="nut-dato small-1 columns">4.2</div>
-                                <div class="nut-medida small-1 small-offset-1 columns">g</div>
-                                <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="6.4" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-meter" style="width: 6.4%;"></div>
+                                <div class="row">
+                                    <div class="nut small-2 small-offset-1 columns">Lípidos</div>
+                                    <div class="nut-dato small-1 columns">4.2</div>
+                                    <div class="nut-medida small-1 small-offset-1 columns">g</div>
+                                    <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="6.4" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-meter" style="width: 6.4%;"></div>
+                                    </div>
+                                    <div class="nut-dato small-1 columns">6.4%</div>
                                 </div>
-                                <div class="nut-dato small-1 columns">6.4%</div>
-                            </div>
-                            <div class="row">
-                                <div class="nut small-2 small-offset-1 columns">Fibra dietética</div>
-                                <div class="nut-dato small-1 columns">0.0</div>
-                                <div class="nut-medida small-1 small-offset-1">g</div>
-                                <div class="progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-meter" style="width: 0%;"></div>
+                                <div class="row">
+                                    <div class="nut small-2 small-offset-1 columns">Fibra dietética</div>
+                                    <div class="nut-dato small-1 columns">0.0</div>
+                                    <div class="nut-medida small-1 small-offset-1">g</div>
+                                    <div class="progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-meter" style="width: 0%;"></div>
+                                    </div>
+                                    <div class="nut-dato small-1 columns">0%</div>
                                 </div>
-                                <div class="nut-dato small-1 columns">0%</div>
-                            </div>
-                            <div class="row">
-                                <div class="nut small-2 small-offset-1 columns">Azúcares</div>
-                                <div class="nut-dato small-1 columns">16.1</div>
-                                <div class="nut-medida small-1 small-offset-1 columns">g</div>
-                                <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-meter" style="width: 18%;"></div>
+                                <div class="row">
+                                    <div class="nut small-2 small-offset-1 columns">Azúcares</div>
+                                    <div class="nut-dato small-1 columns">16.1</div>
+                                    <div class="nut-medida small-1 small-offset-1 columns">g</div>
+                                    <div class="success progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-meter" style="width: 18%;"></div>
+                                    </div>
+                                    <div class="nut-dato small-1 columns">18%</div>
                                 </div>
-                                <div class="nut-dato small-1 columns">18%</div>
-                            </div>
-                            <div class="row">
-                                <div class="nut small-2 small-offset-1 columns">Colesterol</div>
-                                <div class="nut-dato small-1 columns">506</div>
-                                <div class="nut-medida small-1 small-offset-1 columns">mg</div>
-                                <div class="alert progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-meter" style="width: 100%;"></div>
+                                <div class="row">
+                                    <div class="nut small-2 small-offset-1 columns">Colesterol</div>
+                                    <div class="nut-dato small-1 columns">506</div>
+                                    <div class="nut-medida small-1 small-offset-1 columns">mg</div>
+                                    <div class="alert progress small-4 columns" role="progressbar" tabindex="0" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-meter" style="width: 100%;"></div>
+                                    </div>
+                                    <div class="nut-dato small-1 columns">169%</div>
                                 </div>
-                                <div class="nut-dato small-1 columns">169%</div>
-                            </div>
+                            </div>                           
                         </div>
                     </div>
                     <div class="row align-center">

@@ -48,11 +48,7 @@ article{
     padding: 1%;
 }
 
-.tabs-title>a{
-    padding: 1rem 0.25rem;
-}
-
-.tabs-content{
+.content{
     margin-bottom: 8%;
 }
 
@@ -60,7 +56,7 @@ h3, h5 {
     font-family: 'Comfortaa', cursive;
 }
 
-h3, .filled{
+h3, .filled, .panel>h4{
     color: #08BD14 !important;
 }
 
@@ -82,11 +78,22 @@ h5>span{
     opacity: 0.7;
 }
 
-p, .tabs-panel>div{
+.panel{
+    margin-top: 5%;
+}
+
+.wrapper{
+    left: 5%;
+    margin: 0px;
+    position: relative;
+    width: 90%;
+}
+
+p, .panel>div{
     text-align: justify;
 }
 
-.tabs-panel>.row{
+.panel>.row{
     font-size: 0.7rem;
 }
 
