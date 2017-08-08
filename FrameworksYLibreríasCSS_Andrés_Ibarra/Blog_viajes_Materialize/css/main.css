@@ -1,3 +1,20 @@
-﻿body
-{
+﻿.background{
+    position: fixed;
+    width: 100%;
+}
+
+.background-image{
+    background: url(../resources/backpacker.jpg) no-repeat fixed;
+    height: 80%;
+    top: 20%;
+}
+
+.top-background{
+    height: 20%;
+}
+
+body::before{
+    content: "";
+    border-left: 10 rem #78BBBB;
+    border-right: 10rem #78BBBB;
 }
