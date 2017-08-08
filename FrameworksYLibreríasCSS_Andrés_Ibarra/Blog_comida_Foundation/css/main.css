@@ -1,0 +1,198 @@
+﻿body {
+    background: url(../resources/kitchen.jpg) no-repeat fixed;
+    font-family: 'Comfortaa', cursive;
+}
+
+.main {
+    background-color: rgba(70, 70, 70, 0.49);
+}
+
+/*Cabecera*/
+
+header {
+    background-color: #08BD14;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+h1 > span {
+    color: red;
+    font-family: 'Comfortaa', cursive;
+}
+
+h2{
+    color: white;
+    font-size: 0.6em;
+}
+
+aside{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+nav>.menu>li{
+    border-right: 1px solid #08BD14;
+}
+
+/*Contenido*/
+
+article{
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    padding: 1%;
+}
+
+.tabs-title>a{
+    padding: 1rem 0.25rem;
+}
+
+.tabs-content{
+    margin-bottom: 8%;
+}
+
+h3, h5 {
+    font-family: 'Comfortaa', cursive;
+}
+
+h3, .filled{
+    color: #08BD14 !important;
+}
+
+.circle, .circle>img{
+    border-radius: 50%;
+}
+
+h6, h5{
+    font-weight: bold;
+}
+
+h5>span{
+    color: rgba(70, 70, 70, 0.49);
+}
+
+.media-object{
+    border-bottom: 2px solid rgba(70, 70, 70, 1);
+    margin-top: 2rem;
+    opacity: 0.7;
+}
+
+p, .tabs-panel>div{
+    text-align: justify;
+}
+
+.tabs-panel>.row{
+    font-size: 0.7rem;
+}
+
+.nut{
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    text-align: left;
+}
+
+.nut, .nut-medida{
+    color: #9D9D9D;
+}
+
+.progress{
+    padding: 0px;
+}
+
+.fi-star{
+    color: #9D9D9D;
+}
+
+.comment{
+    margin-top: 3%;
+    padding: 5%;
+}
+
+textarea{
+    display: inline-block !important;
+    margin: 0px;
+    width: 70%;
+}
+
+.fi-torso, .fi-comment{
+    font-size: 3.5em;
+}
+
+.comment>button{
+    background-color: #08BD14;
+    color: white;
+    height: 50px;
+    padding: 2px;
+}
+
+/*Estilos para tablet*/
+
+@media screen and (min-width: 640px){
+
+    aside{
+        padding: 0px 0.9375rem 0px 0.9375rem !important;
+    }
+
+    aside>ul, aside>ul>li, nav{
+        display: inline-block !important;
+    }
+
+    aside>ul{
+        float: right;
+    }
+
+    nav {
+        border-bottom: 1px solid #08BD14;
+        border-left: 1px solid #08BD14;
+        float: left;
+    }
+
+    .favs, .history {
+        background-color: rgba(62%, 62%, 62%, 0.65);
+        display: block;
+        margin-top: 8%;
+    }
+
+    .favs>h4, .history>h4{
+        color: #08BD14;
+    }
+
+    .favs>.row>div{
+    }
+
+}
+
+/*Estilo pantallas grandes*/
+
+@media screen and (min-width: 1024px){
+    
+    /*main*/
+
+    .main{
+        margin: 0px 2.5%;
+        width: 95%;
+    }
+
+    header{
+        margin-bottom: 3%;
+    }
+
+    aside > ul, nav {
+        display: block !important;
+    }
+
+    nav, nav>.menu>li{
+        border: none;
+        padding: 0px;
+        width: 100%;
+    }
+
+    nav, .favs{
+        margin-top: 8%;
+    }
+}
